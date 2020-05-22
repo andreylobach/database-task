@@ -9,7 +9,7 @@ from service import tools
 
 app = Flask(__name__)
 
-host = '0.0.0.0'
+host = '127.0.0.1'
 port = 8080
 base_url = f'http://{host}:{port}'
 
