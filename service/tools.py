@@ -23,7 +23,7 @@ def percentile(values: list, percent: int) -> float or None:
         return None
 
     values.sort()
-
+ 
     k = (len(values) - 1) * (percent / 100)
     f, c = math.floor(k), math.ceil(k)
     result = values[int(k)] if f == c else \
